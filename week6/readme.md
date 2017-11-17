@@ -88,7 +88,7 @@ npm install
 5. Create a javascript function to toggle the visibility of the form container:
   ```javascript
   function toggleAddFileFormVisibility() {
-    $('#form-container').toggleClass('hidden');
+    $('#form-container').toggleClass('d-none');
   }
   ```
 

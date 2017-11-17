@@ -32,7 +32,7 @@ function toggleAddFileForm() {
 }
 
 function toggleAddFileFormVisibility() {
-  $('#form-container').toggleClass('hidden');
+  $('#form-container').toggleClass('d-none');
 }
 
 function submitFileForm() {
